@@ -29,5 +29,5 @@ The use of   [libslic3r](https://manual.slic3r.org/libslic3r-doc/)  is acknowled
 
 ### How can I invoke Slic3r using the command line?
 
-The command line  instruction is     DMLSlic3r --export-svg  example.stl --load  example.ini 
+The command line  instruction is     DMLSlicer --export-svg  example.stl --load  example.ini 
 
