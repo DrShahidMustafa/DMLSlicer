@@ -17,15 +17,14 @@ The core parts of DMLSlicer  are written in C++11, with multithreading. Currentl
 ### Directory structure
 
 
-* `src/dmlslicer`: the C++ source of the `DMLSlicer` executable and the CMake definition file for compiling it
-* `src/GUI`: The C++ GUI. Yet to be implemented
-
-* `src/Utilities/`: various useful libraries
-* `src/Core/`: C++ sources for libslic3r and many more
+* `src/dmlslicer`: the C++ source of the `DMLSlicer` executable and the CMake definition file for compiling it. Various JASON @ vcpkg files are also provided to download dependencies.
+* `src/GUI`: The C++ GUI. Yet to be implemented.
+* `src/Utilities/`: various useful libraries.
+* `src/Core/`: C++ sources for libslic3r and many more.
 
 ### Acknowledgements
 
-The use of  libslic3r  is acknowledged in this project.
+The use of   [libslic3r](https://manual.slic3r.org/libslic3r-doc/)  is acknowledged in this project.
 
 
 ### How can I invoke Slic3r using the command line?
