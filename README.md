@@ -14,14 +14,21 @@ The core parts of DMLSlicer  are written in C++11, with multithreading. Currentl
 ## How to built?
 **Cmake**  is used as the build system. The external dependancies are manged with  **vcpkg**. This makes the process of compiling fully automated and painfree.
 
-- linux
-* windows
-+ mac
+### Directory structure
 
-**linux** <a name="my-custom-anchor-point"></a>
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+
+* `src/dmlslicer`: the C++ source of the `DMLSlicer` executable and the CMake definition file for compiling it
+* `src/GUI`: The C++ GUI. Yet to be implemented
+
+* `src/Utilities/`: various useful libraries
+* `src/Core/`: C++ sources for libslic3r and many more
+
+### Acknowledgements
+
+The use of  libslic3r  is acknowledged in this project.
+
+
+### How can I invoke Slic3r using the command line?
+
+The command line  instruction is     DMLSlic3r --export-svg  example.stl --load  example.ini 
 
